@@ -1,0 +1,850 @@
+<!DOCTYPE html>\n
+<html>\n
+
+<head>\n
+    <meta charset="unicode-escape" />\n
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />\n
+    <meta content="NOARCHIVE" name="robots" />\n
+    <meta content="noodp" name="robots" />\n
+    <meta content="noydir" name="robots" />\n
+    <meta content="" name="citation_fulltext_world_readable" />\n
+    <link href="http://www.sciencedirect.com/science/article/pii/S2212671614001024" rel="canonical" />\n
+    <link href="http://cdn.els-cdn.com/sd/favSD.ico" rel="shortcut icon" type="image/x-icon" />\n
+    <title>\n A New Texture Analysis Approach for Iris Recognition\n </title>\n
+    <link href="http://www.sciencedirect.com/gadgetservices/gadgets/v9/css/gadgets_ext,gadgets,toolbar,SDArticleGadgetOverRide,jquery-ui-1.8.4.custom.css" rel="StyleSheet" type="text/css" />\n
+    <link href="http://cdn.els-cdn.com/sd/css/article_1508R1.css" rel="stylesheet" type="text/css" />\n
+    <link href="http://cdn.els-cdn.com/sd/css/articleSprite_1508R1.css" rel="stylesheet" type="text/css" />\n
+    <link href="http://cdn.els-cdn.com/sd/css/jquery-ui_1508R1.css" rel="stylesheet" type="text/css" />\n
+    <!--[if lt IE 9]>\n<link rel="stylesheet" Title="Default Styles" href="http://cdn.els-cdn.com/sd/css/css_gen_ielt9_1508R1.css" type="text/css">\n<![endif]-->\n
+    <script>
+    \
+    nvar ab = new Object();\
+    nab.entitled = true;\
+    n
+    </script>\n
+    <script>
+    (function() {
+        var scriptTag = document.createElement('script');
+        scriptTag.type = 'text/javascript';
+        scriptTag.async = true;
+        scriptTag.src = '//cdn.optimizely.com/js/204774041.js';
+        var head = document.getElementsByTagName('head')[0];
+        head.parentNode.insertBefore(scriptTag, head);
+    })();
+
+    function optimizelyTimeout() {
+        window.optimizely = window.optimizely || [];
+        if (!window.optimizely.data) {
+            window.optimizely.push("timeout");
+        }
+    }
+    setTimeout(optimizelyTimeout, 1000);
+    </script>\n
+    <script>
+    \
+    nvar prs = new Object();
+    prs.rt = function(label, ts) {
+        this[label] = (ts || ts == 0 ? ts : new Date().getTime());
+    };\
+    n
+    </script>\n
+    <!--[if lte IE 7]>\n<script src="http://cdn.els-cdn.com/sd/ut/js/json2_1508R1.js.min"></script>\n<![endif]-->\n</head>\n
+
+<body>\n
+    <div aria-label="screen reader compatability" class="ua_btn" role="region"><a href="http://www.sciencedirect.com/science/article/pii/S2212671614001024?np=y" rel="nofollow" role="button">Screen reader users, click here to load entire article</a>This page uses JavaScript to progressively load the article content as a user scrolls. Screen reader users, click the load entire article button to bypass dynamically loaded article content.</div>\n
+    <script>
+    \
+    nvar refLinkURL = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S2212671614001024";\
+    nvar updatedCitedBy = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";\
+    nvar refResolvePath = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_pii=S2212671614001024&_refCnt=13&_docType=article";\
+    n\ n // these variables handle the reference resolution. Please ignore the naming.\n// the first variable myMap will hold an associative array of links by bibID\n// the second variable myXabsCounts holds the scopus counts.\nvar myMap = []; // html of links for references.\nvar myXabsCounts = []; // scopus counts\n
+    </script>\n
+    <div id="header-area">\n
+        <!-- ************* For A/B testing FAST and SOLR Proxy ***************** -->\n
+        <!-- *************End for A/B testing FAST and SOLR Proxy *****************-->\n
+        <div id="ieWarningMsg">\n<span class="infoIcon_ie spErrorIcon">\n        ScienceDirect is phasing out support for older versions of Internet Explorer on Jan 12, 2016.  For the best product experience, we recommend you upgrade to a  
+<a href="http://www.microsoft.com/download/internet-explorer.aspx"> newer version of IE</a> 
+or use a different browser:<a href="https://www.mozilla.org/firefox/new/"> Firefox </a> or <a href="https://www.google.com/chrome/browser/">Chrome</a>. 
+For additional information please see the <a href="http://blog.sciencedirect.com/"> ScienceDirect Blog </a> page.\n    </span>\n<a class="closeBt" title="Close Internet Explorer 7 warning">Close</a>\n</div>\n
+        <div id="header">\n
+            <div class="headerBlk">\n
+                <div aria-label="ScienceDirect" class="headerInner" role="navigation">\n
+                    <div class="home">\n
+                        <iframe src="//acw.sciencedirect.com/SSOCore/update?utt=6479914fac2f41f2a802b1-b17565b1ac03dde8" style="display:none;"></iframe>
+                        <iframe src="//acw.scopus.com/SSOCore/update?utt=6479914fac2f41f2a802b1-b17565b1ac03dde8" style="display:none;"></iframe>
+                        <iframe src="//acw.sciverse.com/SSOCore/update?utt=6479914fac2f41f2a802b1-b17565b1ac03dde8" style="display:none;"></iframe>
+                        <iframe src="//acw.elsevier.com/SSOCore/update?utt=6479914fac2f41f2a802b1-b17565b1ac03dde8" style="display:none;"></iframe>\n
+                        <!--INSERTS THE TEMPLATE VARIABLES POPULATED FROM DB for SCIVERSE and PRODUCT labels-->\n
+                        <a href="http://www.sciencedirect.com/" title="ScienceDirect -The world's leading full-text scientific database"> <span class="logoScienceDirectImg">\xa0</span></a>\n</div>\n
+                    <ul class="publication">\n
+                        <!-- Journals link -->\n
+                        <li>\n<a href="http://www.sciencedirect.com/science/journals">Journals</a>\n</li>\n
+                        <!-- Books link -->\n
+                        <li class="sep">\n<a href="http://www.sciencedirect.com/science/bookbshsrw">Books</a>\n</li>\n</ul>\n</div>\n
+                <!-- if not logged in -->\n
+                <div aria-label="Help and Sign In" class="clearfix" id="login" role="navigation" style="margin-right:230px;">\n
+                    <ul class="userlinks">\n
+                        <li>\n<a href="http://www.sciencedirect.com/science?_ob=ShoppingCartURL&amp;_method=display&amp;_zone=TopNavBar&amp;_origin=article&amp;md5=98a3e89aa38c5044516e5e4ca8b64e74" name="cart" target="_top" title="Shopping Cart">Shopping cart</a>\n</li>\n
+                        <!--top right widget-->\n
+                        <li id="loginPlus">\n
+                            <h2><a aria-controls="loginBox" aria-expanded="false" aria-haspopup="true" class="novisit plus nojs S_C_SignIn" href="javascript:LoginBox.flipLogin('loginBox',null);" id="loginPlusScript" role="button" title="Sign in to ScienceDirect">Sign in</a></h2>\n
+                            <noscript><a class="plus S_C_SignIn" href="http://www.sciencedirect.com/science?_ob=HomePageURL&amp;_method=userHomePage&amp;_fl=y&amp;md5=6dada1fb726164470bad9e40bbc4d7fa" id="loginPlusNoScript" title="Open the Sign in Box">Sign in</a></noscript>\n
+                            <div aria-labelledby="headingSignIn" class="bannerAvail" id="loginBox" role="dialog" style="width:600px;display:none;">\n
+                                <div style="width:285px;float:right;border-left:1px solid #9B9B9B;padding-left:10px;min-height:180px;">\n
+                                    <div class="openAthens"><a href="https://auth.elsevier.com/ShibAuth/institutionLogin?entityID=https%3A%2F%2Fidp.eduserv.org.uk%2Fopenathens&amp;appReturnURL=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS2212671614001024" title="Log in using OpenAthens">OpenAthens login</a></div>\n
+                                    <div class="sampletext">\n
+                                        <div style="font-weight:bold;padding-bottom:7px;">
+                                            <h3><b>Login via your institution</b></h3></div>\n
+                                        <div class="fedLink"><a href="http://www.sciencedirect.com/science/externallogin" title="Other institution login">Other institution login</a></div>\n</div>\n</div>\n
+                                <div class="padding" style="width:285px;">\n
+                                    <form action="https://www.sciencedirect.com/science/login" id="login-box-form" method="POST" name="sdLogin" style="margin:0;">\n<b><h3 id="headingSignIn">Sign in using your ScienceDirect credentials</h3></b>\n
+                                        <input name="login" type="hidden" value="login" />\n
+                                        <div style="margin-top:20px;">\n
+                                            <label for="username"><span style="text-align:right;">Username:</span>\n
+                                                <input id="username" name="userid" title="Please enter your username here" type="text" />
+                                            </label>\n</div>\n
+                                        <div style="margin-top:7px;">\n
+                                            <label for="password"><span style="text-align:right;">Password:</span>\n
+                                                <input id="password" maxlength="20" name="password" onkeypress="if(13==event.keyCode)this.form.submit();if (13==event.keyCode)return false;" title="Please enter your password here" type="password" />
+                                            </label>\n</div>\n
+                                        <div class="remember">\n
+                                            <input checked="" class="allCheck top2fix" id="rememberMe" name="rememberid" title="Checking this option will log you in automatically next time you visit ScienceDirect" type="checkbox" value="Y" />\n
+                                            <label for="rememberMe" title="Checking this option will log you in automatically next time you visit ScienceDirect">Remember me</label>\n</div>\n
+                                        <input name="_ob" type="hidden" value="MiamiLogonURL" />\n
+                                        <input name="targetURL" type="hidden" value="http://www.sciencedirect.com/science/article/pii/S2212671614001024" />\n
+                                        <input name="returnURL" type="hidden" value="http://www.sciencedirect.com/science/article/pii/S2212671614001024" />\n
+                                        <div class="submit">\n
+                                            <div style="float:left;padding-left:0px;">
+                                                <input alt="Sign in to ScienceDirect" class="button" name="arrow" title="Sign in to ScienceDirect" type="Submit" value="Sign in" />
+                                            </div>\n
+                                            <div class="notRegistered"><span class="astPad">| </span><span><a href="https://www.sciencedirect.com/science/register-new-user" target="_top" title="Register a username and password for using alerts and other personal features">Not Registered?</a></span></div>\n
+                                            <div style="clear:left;"></div>\n</div>\n
+                                        <div class="forgotpass">\n<a href="http://www.sciencedirect.com/science?_ob=ReminderURL&amp;_method=display&amp;md5=4a97631c25ac81c09ad2f961106e9da2" onclick="var remindWin;remindWin=window.open('','passwd','scrollbars=yes,resizable=yes,directories=no,toolbar=n,menubar=no,status=no,width=650,height=300');" target="passwd" title="Click here for help in recovering your ScienceDirect access">Forgotten username or password?</a>\n</div>\n</form>\n</div>\n</div>\n</li>\n
+                        <li class="last"><a class="S_C_helpLink" href="/science?_ob=HelpURL&amp;_file=browse_open_doc.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article" onclick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&amp;_file=browse_open_doc.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" target="sdhelp" title="Help (Opens new window)">Help</a></li>\n</ul>\n</div>\n
+                <!-- logged in -->\n</div>\n
+            <div aria-label="Institutional Access" class="clearfix" id="bannerTop" role="banner">\n<a href="http://www.elsevier.com/solutions/sciencedirect/who-uses/guest-users" onclick="openNS('http://www.elsevier.com/solutions/sciencedirect/who-uses/guest-users'); return false;">\n<img border="0" src="http://www.sciencedirect.com/science/page/static/science/dynamic_scidir_home_guest_user.gif"/>\n</a>\n</div>\n</div>
+        <!--header-->\n</div>
+    <!--header-area-->\n
+    <div id="page-area">\n
+        <div class="clearfix quicksearch prd_sci_dir" id="articleToolbar">\n
+            <div id="articleNav">\n
+                <ul aria-label="Article options" class="clearfix" role="navigation">\n
+                    <!-- return to gateway -->\n
+                    <li>\n
+                        <div class="icon_pdf toolbar lightWeight">\n
+                            <div class="largeIcon"></div>\n<a class="S_C_pdfLink big pdf ext_sdlink cLink" href="http://www.sciencedirect.com/science/article/pii/S2212671614001024/pdf?md5=4e2e9a369b4d5b3db5100aba599bef8b&amp;pid=1-s2.0-S2212671614001024-main.pdf" id="pdfLink" pdfurl="http://www.sciencedirect.com/science/article/pii/S2212671614001024/pdf?md5=4e2e9a369b4d5b3db5100aba599bef8b&amp;pid=1-s2.0-S2212671614001024-main.pdf" querystr="?_origin=article&amp;_zone=toolbar&amp;_isEmbed=y" rel="nofollow" style="cursor:pointer" target="newPdfWin" title="Download full text in PDF">Download full text in PDF\n    <span class="offscreen" id="pdfExplanation">Opens in a new window.  Article suggestions will be shown in a dialog on return to ScienceDirect.</span>\n</a>\n</div>\n</li>\n
+                    <li class="exportPopupListitem">\n
+                        <div class="pulldown">\n
+                            <div class="exportDivision" title="Export citations">\n
+                                <div class="exportIconText">\n
+                                    <div class="icon_exportarticlesci_dir initialImage export_icon" tabindex="0"> \xa0 </div>\n
+                                    <input class="listAction export export_general" id="icon_exportarticle" name="export" tabindex="-1" type="button" value="Export" />\n<span class="downSM_sci_dir exportArrow"></span>\n</div>\n
+                                <input class="zone" name="zone" type="hidden" value="exportDropDown" />\n</div>\n
+                            <div class="menu export_popup hidden" id="export_popup">\n
+                                <div alt="Warning Icon" class="warningIcon" title="Warning Icon"></div>\n
+                                <form action="/science?_ob=DownloadURL&amp;_method=finish&amp;_eidkey=1-s2.0-S2212671614001024&amp;count=1&amp;_docType=FLA&amp;md5=03d8a3ed4f6e9dc8185a86dde2bb520d" method="post" name="exportCite" target="">\n
+                                    <input class="zone" name="zone" type="hidden" value="exportDropDown" />\n
+                                    <script language="javascript" type="text/javascript">
+                                    \
+                                    n <!--\n\nfunction checkExportFormat(limit) {\n\n    var msg = "";\n\n    for (i=0;i<document.exportCite.elements.length;i++) {\n        if (document.exportCite.elements[i].value == "REFWX") {\n            if (document.exportCite.elements[i].checked) {\n                document.exportCite.setAttribute('target',"RefWorksMain");\n                if (checkLimit()) {\n                    if (limit) {\n                        msg = "It is possible that some users may experience problems when downloading large numbers of citations. If this happens please contact RefWorks support at your regionally hosted site or e-mail support@refworks.com to assist you further.\\n\\n";\n                    }\n                    msg += "Exporting to RefWorks may take some time, please wait....";\n                    alert(msg);\n                }\n            }\n            else {\n                document.exportCite.setAttribute('target',"");\n            }\n            break;\n        }\n    }\n    return true;\n}\n\nfunction determineCount(numStr) {\n    var count=1;\n\n    if(numStr.indexOf("-")) {\n        var rangeStr = numStr.split("-");\n\n        if(rangeStr.length == 2) {\n            var highNum = parseInt(rangeStr[1]);\n            var lowNum = parseInt(rangeStr[0]);\n\n            if(highNum >= lowNum) { count = (highNum - lowNum) + 1; }\n        }\n    }\n    return count;\n}\n\nfunction checkLimit(){\n\n    var selectNum = "";\n    var useSelected = false;\n    var allNum = 0;\n    var count = 0;\n    var rdoc = 0;\n\n    for (i=0;i<document.exportCite.elements.length;i++) {\n        if (document.exportCite.elements[i].name == "count") {\n            allNum = document.exportCite.elements[i].value;\n        }\n        if (document.exportCite.elements[i].name == "NUMBER_LIST") {\n            selectNum = document.exportCite.elements[i].value;\n        }\n        if (document.exportCite.elements[i].name == "_rdoc") {\n            rdoc = document.exportCite.elements[i].value;\n        }\n        if (document.exportCite.elements[i].value == "selected") {\n            if (document.exportCite.elements[i].checked) {\n                useSelected = true;\n            }\n        }\n    }\n\n    if (useSelected) {\n        selectNum = selectNum.replace(/ /g,"");\n        if(selectNum.indexOf(",")) {\n            var commaList = selectNum.split(",");\n            for(i=0; i < commaList.length; i++) {\n                count += determineCount(commaList[i]);\n            }\n        }\n        else {\n            count += determineCount(selectNum);\n        }\n    }\n    else { \n        if (rdoc > 0) {\n            count = 1;\n        }\n        else {\n            count = allNum;\n        }\n    }\n\n    if(count > 50) { return true; }\n  \n    return false;\n}\n\n//-->\n
+                                    </script>\n
+                                    <div class="exportInfo">\n
+                                        <div class="chkboxCount"></div>\n
+                                        <div class="exportHelp">\n<a href="/science?_ob=HelpURL&amp;_file=art_export.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article" onclick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&amp;_file=art_export.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" target="sdhelp" title="Help (Opens new window)">Help</a>\n</div>\n</div>\n
+                                    <div class="expContainer">\n
+                                        <ul class="Export_Popup" width="100%">\n
+                                            <li class="subHeading">
+                                                <h3> Direct export </h3></li>\n
+                                            <li class="direct_export">\n
+                                                <div>\n
+                                                    <div class="btn_export directExport">\n
+                                                        <div class="icon_Mendeley" title="Save to Mendeley">\xa0</div>\n
+                                                        <input alt="Save to Mendeley" class="mendeleyBT button" id="directExport" name="Save to Mendeley" type="button" value="Save to Mendeley" />\n</div>\n</div>\n
+                                                <div class="btnLine">\n
+                                                    <div class="btn_export refworks">\n
+                                                        <div class="icon_Refworks" title="Save to RefWorks">\xa0</div>\n
+                                                        <input alt="Save to RefWorks" class="button refworks" id="REFWX" name="Save to RefWorks" type="button" value="Save to RefWorks" />\n</div>\n</div>\n
+                                                <div class="clear"> </div>\n</li>\n
+                                            <li class="subHeading big">
+                                                <h3>Export file</h3></li>\n
+                                            <li class="export_radio RIS">
+                                                <input checked="" class="artRadio expRadio RIS" id="RIS" name="citation-type" type="radio" value="RIS" />\xa0
+                                                <label for="RIS">RIS\xa0(for EndNote, Reference Manager, ProCite)</label>\n</li>\n
+                                            <li class="export_radio">
+                                                <input class="artRadio expRadio BIBTEX" id="BIBTEX" name="citation-type" type="radio" value="BIBTEX" />\xa0
+                                                <label for="BIBTEX">BibTeX</label>\n</li>\n
+                                            <li class="export_radio">
+                                                <input class="artRadio expRadio ASCII" id="ASCII" name="citation-type" type="radio" value="ASCII" />\xa0
+                                                <label for="ASCII">Text</label>\n</li>\n
+                                            <li class="export_radio hidden">
+                                                <input class="artRadio expRadio REFWX" id="REFWX" name="citation-type" type="radio" value="REFWX" />\xa0
+                                                <label for="REFWX">RefWorks Direct Export</label>\n</li>\n
+                                            <li class="subHeading big">
+                                                <h3>Content</h3></li>\n
+                                            <li class="expCitab export_radio">
+                                                <input class="cite artRadio expRadio" id="cite" name="format" type="radio" value="cite" />\xa0
+                                                <label class="cit" for="cite"> Citation Only </label>\n</li>\n
+                                            <li class="expCitab export_radio citab">
+                                                <input checked="" class="cite-abs artRadio expRadio" id="cite-abs" name="format" type="radio" value="cite-abs" />\xa0
+                                                <label class="cab" for="cite-abs"> Citation and Abstract </label>\n</li>\n
+                                            <li class="export_submit">\n
+                                                <div class="downBtn export_downBtn">\n
+                                                    <input alt="Export" class="button export_button" id="export_button" name="export" type="submit" value="Export" />\n</div>\n</li>\n</ul>\n</div>\n</form>\n</div>\n</div>\n</li>\n</ul>\n</div>\n
+            <div aria-label="Quick search" class="sdSearch" role="search">\n
+                <fieldset>\n
+                    <div class="left">\n
+                        <form action="/science" id="quickSearch" method="get" name="qkSrch" target="_top">\n
+                            <input name="_ob" type="hidden" value="QuickSearchURL" />\n
+                            <input name="_method" type="hidden" value="submitForm" />\n
+                            <input name="_acct" type="hidden" value="C000228598" />\n
+                            <input name="searchtype" type="hidden" value="a" />\n
+                            <input name="_origin" type="hidden" value="article" />\n
+                            <input name="_zone" type="hidden" value="qSearch" />\n
+                            <input name="md5" type="hidden" value="89d09e911d3872e16ae140ceae8c0b3b" />\n
+                            <input id="quickSearch" maxlength="450" name="qs_all" placeholder="Search ScienceDirect" size="30" title="Perform a quick search on ScienceDirect" type="text" value="" />
+                            <input class="submit" title="Submit quick search" type="submit" value="" />\n<a class="advanced S_C_advanced" href="http://www.sciencedirect.com/science/search">Advanced search</a>\n</form>\n</div>\n</fieldset>\n</div>\n
+            <div class="clear"></div>\n
+            <div id="erToolbar"></div>\n
+            <div style="color : #FF0000; font-weight : bold;border:0px solid red;">\n</div>\n</div>\n
+        <div id="articleToolbarDummy"></div>\n
+        <div style="clear:both;"></div>\n
+        <div aria-label="table of contents" class="column" id="leftPane" role="navigation">\n
+            <div id="leftPaneInner">\n
+                <div>\n
+                    <div id="leftButton">\n
+                        <ul>\n
+                            <li class="tocbutton">\n<a alt="Open to view article outline" aria-expanded="false" class="outline-toggle" href="#" title="Open to view article outline">\n<span class="icon outline_big"></span>\n</a>\n</li>\n</ul>\n</div>\n
+                    <div id="outlineContainer">\n<a class="closeBt" title="Close">\xa0</a>\n
+                        <div class="outline" id="outline">\n
+                            <script type="text/javascript">
+                            \
+                            n document.write("<div class='outlineMsg'>Article outline is loading...</div>");\
+                            n
+                            </script>\n
+                            <noscript>\n
+                                <div class="infoMsg">\n
+                                    <div style="float: left; width: 20px; "><img alt="Alert message" border="0" src="http://cdn.els-cdn.com/sd/alertIcon.gif" valign="top" /></div>\n
+                                    <div style="padding-left:25px;">JavaScript is disabled on your browser.
+                                        <br/>
+                                        <div style="padding-top:10px;">\n Please enable JavaScript to use all the features on this page.</div>
+                                    </div>\n</div>\n</noscript>\n</div>\n</div>\n</div>\n</div>\n</div>\n
+        <div class="column" id="centerPane">\n
+            <div class="topBorder"></div>\n
+            <div class="centerContent" id="centerContent">\n
+                <div aria-label="Article" class="centerInner svBigBox" id="centerInner" role="main">\n
+                    <noscript>\n
+                        <div class="msgBox" style="margin-top:10px;">\n<span class="errMsg">\n<div>JavaScript is disabled on your browser.  Please enable JavaScript to use all the features on this page. This page uses JavaScript to progressively load the article content as a user scrolls. Click the View full text link to bypass dynamically loaded article content. <a href="http://www.sciencedirect.com/science/article/pii/S2212671614001024?np=y" rel="nofollow">View full text</a></div>\n</span>\n</div>
+                        <br/>\n</noscript>\n
+                    <div class="head headTemplate page_fragment_ind">\n
+                        <div class="publisherLogo">\n<span class="spElsevierPubIcon"></span>\n</div>\n
+                        <?xml version="1.0" encoding="UTF-8"?>
+                            <div class="publicationHead" xmlns:bk="http://www.elsevier.com/xml/bk/dtd">
+                                <div class="title"><a class="cLink" href="/science/journal/22126716" querystr="?zone=centerPane" title="Go to AASRI Procedia on ScienceDirect"><span>AASRI Procedia</span></a></div>
+                                <p class="volIssue"><a class="S_C_volIss" href="/science/journal/22126716/9/supp/C" title="Go to table of contents for this volume/issue">Volume 9</a>, 2014, Pages 2\u20137</p>
+                                <p class="specIssueTitle">2014 AASRI Conference on Circuit and Signal Processing (CSP 2014)</p>
+                                <p class="titleEditors">Edited By Wei Deng</p>
+                            </div>\n
+                            <div class="publicationCover cover2">\n<a class="cLink" href="/science/journal/22126716/9/supp/C" querystr="?zone=publicationLogo">\n<img alt="Cover image" class="toprightlogo" src="http://ars.els-cdn.com/content/image/1-s2.0-S2212671614X00053-cov150h.gif"/>\n<noscript><img alt="Cover image" class="toprightlogo" src="http://ars.els-cdn.com/content/image/1-s2.0-S2212671614X00053-cov150h.gif"/></noscript>\n</a>\n
+                                <div class="publicationOAstatus">Open Access</div>\n</div>\n</div>\n
+                    <div class="page_fragment auth_frag" data-fid="1" data-first="true" id="frag_1">
+                        <div class="module_topic_paths"></div>
+                        <h1 class="svTitle" id="tit0005">A New Texture Analysis Approach for Iris Recognition <sup><a class="intra_ref" href="#item1" id="bitem1">\u2606</a></sup></h1>
+                        <ul class="authorGroup noCollab svAuthor">
+                            <li><a class="authorName svAuthor" data-fn="Izem" data-ln="Hamouchene" data-orcid="" data-pos="1" data-t="a" data-tb="" href="#" id="authname_N57ac6c20N579a68f0">Izem Hamouchene</a>
+                                <a class="auth_mail" href="mailto:ihamouchene@usthb.dz" title="E-mail the corresponding author"></a>, </li>
+                            <li><a class="authorName svAuthor" data-fn="Saliha" data-ln="Aouat" data-orcid="" data-pos="2" data-t="a" data-tb="" href="#" id="authname_N57ac6c20N579a6968">Saliha Aouat</a>
+                                <a class="intra_ref auth_corr" href="#cor0005" id="bcor0005" title="Corresponding author contact information"></a><sup>, </sup>
+                                <a class="auth_mail" href="mailto:saouat@usthb.dz" title="E-mail the corresponding author"></a>
+                            </li>
+                        </ul>
+                        <!--VALIDHTML-->
+                        <ul class="affiliation authAffil">
+                            <li id="aff0005"> <span id="">LRIA Laboratory/Computer Science Department, USTHB University, Algiers,16111, Algeria</span></li>
+                        </ul>
+                        <!--VALIDHTML-->
+                        <!--VALIDHTML-->
+                        <dl class="articleDates">
+                            <dd>Available online 28 September 2014</dd>
+                        </dl>
+                        <!--VALIDHTML-->
+                        <div class="moreInformation"></div>
+                        <div id="showMoreButtons"></div>
+                        <div class="hidden" id="ppvPlaceHolder"></div>
+                        <!--VALIDHTML-->
+                        <dl class="extLinks">
+                            <dd class="doiLink"></dd>
+                            <dd class="rightsLink"></dd>
+                        </dl>
+                        <div class="articleOAlabelForced"></div>
+                        <div id="refersToAndreferredToBy">
+                            <dl class="documentThread" id="referredToBy">
+                                <!--Referred To By-->
+                            </dl>
+                        </div>
+                        <!--FRAGMENTEND-->
+                        <div class="page_fragment_ind auth_frag" data-id="frag_2"></div>
+                    </div>
+                    <div class="page_fragment" data-fid="2" id="frag_2">
+                        <script>
+                        prs.rt("abs_1st_beg");
+                        </script>
+                        <!--VALIDHTML-->
+                        <hr class="artHeader" id="abs_authorabs00051" />
+                        <div class="abstract svAbstract " data-etype="ab">
+                            <h2 class="secHeading" id="authorabs00051">Abstract</h2>
+                            <p id="spar0005">One of the most important authentication approaches is the iris recognition system (IRS), which is based on the iris of aperson for the authentication.In this paper, we propose a new iris recognition system using a novel feature extraction method. The proposed method, Neighborhood-based Binary Pattern, compares each neighbor of the central pixel withthe next neighbor to encode it by 1 if it is greater or 0 if it is lower than the central pixel. The obtained binary code is converted into a decimal number to construct the NBP image. In order to deal with the rotation problem, we propose an encoding process to obtain a rotation-invariant image. This image is subdivided into several blocks and the mean of each block is calculated. After, the variations of the means are encoded by a binary code. The obtained binary matrix is considered as feature descriptor of the iris. In the evaluation part, the CASIA iris database [10] has been used to evaluate the performance of the proposed IRS. The experiments demonstrate that the proposed method gives better recognition rate compared to the LBP method. Experimental results show also that the proposed system especially the feature extraction method gives promising results.</p>
+                        </div>
+                        <!--VALIDHTML-->
+                        <div id="embeddedPDF" style="display:none"></div>
+                        <script>
+                        prs.rt("abs_end");
+                        </script>
+                        <div class="sgfNoTitleBar sgfNoGadgetBorder svDoNotLink" id="SD_BA1P"></div>
+                        <!--VALIDHTML-->
+                        <h2 class="svKeywords" id="kwd_1">Keywords</h2>
+                        <ul class="keyword" id="kwd0005">
+                            <li class="svKeywords" id="kw0005"><span id="">Iris Recognition System</span>; </li>
+                            <li class="svKeywords" id="kw0010"><span id="">Neighborhood-based Binary Pattern</span>; </li>
+                            <li class="svKeywords" id="kw0015"><span id="">Local Binary Pattern</span>; </li>
+                            <li class="svKeywords" id="kw0020"><span id="">Texture analysis</span>; </li>
+                            <li class="svKeywords" id="kw0025"><span id="">Mean variation.</span></li>
+                        </ul>
+                        <!--VALIDHTML-->
+                        <h2 id="bibl0005">References</h2>
+                        <div class="refText svRefs">
+                            <ol class="references">
+                                <li data-t="r" id="bib0005">
+                                    <ul class="reference" id="bibsbref1">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0005">[1]</a></li>
+                                        <li class="author">B. Fang,Y.Y. Tang, \u201cElasticregistrationforretinal images based on reconstructedvascular trees\u201d, IEEE Trans. on BiomedicalEngineering,vol. 53, no. 6, pp. 1183-1187, June 2006.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref1"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref1'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0010">
+                                    <ul class="reference" id="bibsbref2">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0010">[2]</a></li>
+                                        <li class="author">R. Szewczyk, K. Grabowski,M. Napieralska, W. Sankowski, M. Zubert, A. Napieralski, \u201cA reliable iris recognition algorithm based on reverse biorthogonal wavelet transform\u201d, Pattern RecognitionLetters, Volume 33, Issue 8, Pages 1019-1026,2012.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref2"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref2'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0015">
+                                    <ul class="reference" id="bibsbref3">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0015">[3]</a></li>
+                                        <li class="author">Shu-Ren Zhou, Jian-Ping Yin, Jian-Ming Zhang,\u201cLocal binary pattern (LBP) and local phase quantization (LBQ) based on Gabor filter for face representation\u201d. Neurocomputing, Vol.116 ,pp. 260-264, 2013.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref3"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref3'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0020">
+                                    <ul class="reference" id="bibsbref4">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0020">[4]</a></li>
+                                        <li class="author">J.G. Daugman, \u201cHigh Confidence Visual Recognition of Persons by a Test of Statistical Independence\u201d, IEEE Trans. on Pattern Analysis and Machine Intelligence, vol. 15, no. 11, pp.1148-1161,1993.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref4"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref4'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0025">
+                                    <ul class="reference" id="bibsbref5">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0025">[5]</a></li>
+                                        <li class="author">J. Daugman,C. Downing, \u201cEpigenetic randomness, complexity, and singularity of human iris patterns\u201d, Proceedings of the Royal Society (London) Series B: Biological Sciences,vol. 268, pp.1737-1740. 2001.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref5"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref5'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0030">
+                                    <ul class="reference" id="bibsbref6">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0030">[6]</a></li>
+                                        <li class="author">Abidin, Z.Z.; Manaf, M.; Shibghatullah, A.S.; Anawar, S.; Ahmad, R., \u201cFeature extraction from epigenetic traits using edge detection in iris recognition system,\u201d IEEE International Conference on Signal and Image Processing Applications (ICSIPA), pp.145-149, 2013.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref6"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref6'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0035">
+                                    <ul class="reference" id="bibsbref7">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0035">[7]</a></li>
+                                        <li class="author">J. Daugman, \u201cHow iris recognition works\u201d, IEEE Trans. on Circuits and Systems for Video Technology, vol. 14, no.1, pp. 21-30,2004.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref7"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref7'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0040">
+                                    <ul class="reference" id="bibsbref8">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0040">[8]</a></li>
+                                        <li class="author">J. Daugman, \u201cNew methods in iris recognition\u201d, IEEE Trans. on System, Man, and Cybernetics, vol. 37, no. 5, pp. 1167-1175, 2007.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref8"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref8'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0045">
+                                    <ul class="reference" id="bibsbref9">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0045">[9]</a></li>
+                                        <li class="author">J. Daugman \u201cThe importance of being random: statistical principles of iris recognition\u201d, Pattern recognition, vol. 36, no.2, pp. 279-291.2003.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref9"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref9'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0050">
+                                    <ul class="reference" id="bibsbref10">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0050">[10]</a></li>
+                                        <li class="author">CASIA iris image database (v1.0), The National Laboratory of Pattern Recognition (NLPR), Institute of Automation, Chinese Academy of Sciences (CAS), 2006.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref10"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref10'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0055">
+                                    <ul class="reference" id="bibsbref11">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0055">[11]</a></li>
+                                        <li class="author">Hamouchene I. Aouat S, Lacheheb H. \u201cNew segmentation architecture for texture matching using the LBP method\u201d. IEEE Technically Co-Sponsored SAI Conference, London UK, 2013.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref11"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref11'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0060">
+                                    <ul class="reference" id="bibsbref12">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0060">[12]</a></li>
+                                        <li class="author">L. Flom and A. Safir, \u201cIris Recognition System\u201d, U.S. Patent 4,641,349, 1987.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref12"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref12'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                                <li data-t="r" id="bib0065">
+                                    <ul class="reference" id="bibsbref13">
+                                        <li class="referenceLabel"><a class="label intra_ref" href="#bib0065">[13]</a></li>
+                                        <li class="author">Kevin W. Bowyer, Karen P. Hollingsworth, Patrick J. Flynn, \u201cA Survey of Iris Biometrics Research: 2008-2010\u201d, Handbook of Iris Recognition, pp. 15-54, 2013.</li>
+                                        <li class="external refPlaceHolder" data-refres="N" id="bibsbref13"><img alt="" class="refimgLoader" src="http://cdn.els-cdn.com/sd/loading_txt_icon.gif" /></li>
+                                    </ul>
+                                    <script language="Javascript" type="text/javascript">
+                                    \
+                                    n myMap['bibsbref13'] = new Array();\
+                                    n
+                                    </script>
+                                </li>
+                            </ol>
+                        </div>
+                        <!--VALIDHTML-->
+                        <div class="artFooterContent">
+                            <dl class="footnote" data-t="n" id="item1">
+                                <dt class="label"><a class="intra_ref" href="#bitem1">\u2606</a></dt>
+                                <dd>
+                                    <p>Peer-review under responsibility of Scientific Committee of American Applied Science Research Institute.</p>
+                                </dd>
+                            </dl>
+                            <dl class="correspondence" id="cor0005">
+                                <dt class="label topPadd"><a class="intra_ref auth_corr" href="#bcor0005" title="Corresponding author contact information"><sup></sup></a></dt>
+                                <dd>Corresponding author. Tel.: +21321247187; fax: +21321247187.</dd>
+                            </dl>
+                            <!--footerNotes-->
+                        </div>
+                        <!--VALIDHTML-->
+                        <p class="copyright">Copyright \xa9 2014 The Authors. Published by Elsevier B.V.</p>
+                        <!--VALIDHTML-->
+                        <div class="page_fragment_ind" data-id="frag_3"></div>
+                        <script>
+                        prs.rt("abs_1st_end");
+                        </script>
+                    </div>\n</div>\n
+                <div id="footer-area-dummy"></div>\n
+                <div aria-label="product support" id="footer-area" role="contentinfo">\n
+                    <div id="sdFoot">\n
+                        <div aria-label="Footer" id="footer" role="navigation">\n
+                            <div class="bottomArticle"></div>\n
+                            <div class="padding">\n
+                                <div id="linkArea">\n
+                                    <div class="padding links">\n
+                                        <div style="float:left;width:0;height:1px;"></div>\n
+                                        <div id="banner-bottom">\n
+                                            <a class="S_C_aboutElsevier" href="http://www.elsevier.com" target="_blank" title="Elsevier homepage (opens in a new window)"></a>\n</div>\n
+                                        <ul class="col5">\n
+                                            <li><a href="http://www.info.sciverse.com/sciencedirect?utm_source=sciencedirect&amp;utm_medium=link&amp;utm_campaign=aboutsd" target="_blank">About ScienceDirect</a></li>\n</ul>\n
+                                        <ul class="col5">\n
+                                            <li> <a href="http://www.sciencedirect.com/science/contactus" target="_blank">Contact and support</a></li>\n</ul>\n
+                                        <ul class="col5">\n
+                                            <li><a href="http://www.elsevier.com/locate/termsandconditions?utm_source=sciencedirect&amp;utm_medium=link&amp;utm_campaign=terms" target="_blank">Terms and conditions</a></li>\n</ul>\n
+                                        <ul class="col5">\n
+                                            <li><a href="http://www.elsevier.com/privacypolicy?utm_source=sciencedirect&amp;utm_medium=link&amp;utm_campaign=privacy" target="_blank">Privacy policy</a></li>\n</ul>
+                                        <script type="text/javascript">
+                                        /*{literal}<![CDATA[*/
+                                        window.lightningjs || function(c) {
+                                                function g(b, d) {
+                                                    d && (d += (/\\?/.test(d) ? "&" : "?") + "lv=1");
+                                                    c[b] || function() {
+                                                            var i = window,
+                                                                h = document,
+                                                                j = b,
+                                                                g = h.location.protocol,
+                                                                l = "load",
+                                                                k = 0;
+                                                            (function() {
+                                                                    function b() {
+                                                                        a.P(l);
+                                                                        a.w = 1;
+                                                                        c[j]("_load")
+                                                                    }
+                                                                    c[j] = function() {
+                                                                        function m() {
+                                                                            m.id = e;
+                                                                            return c[j].apply(m, arguments)
+                                                                        }
+                                                                        var b, e = ++k;
+                                                                        b = this && this != i ? this.id || 0 : 0;
+                                                                        (a.s = a.s || []).push([e, b, arguments]);
+                                                                        m.then = function(b, c, h) {
+                                                                            var d = a.fh[e] = a.fh[e] || [],
+                                                                                j = a.eh[e] = a.eh[e] || [],
+                                                                                f = a.ph[e] = a.ph[e] || [];
+                                                                            b && d.push(b);
+                                                                            c && j.push(c);
+                                                                            h && f.push(h);
+                                                                            return m
+                                                                        };
+                                                                        return m
+                                                                    };
+                                                                    var a = c[j]._ = {};
+                                                                    a.fh = {};
+                                                                    a.eh = {};
+                                                                    a.ph = {};
+                                                                    a.l = d ? d.replace(/^\\/\\ //,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+                                                                            window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/11e800d34be0.js");
+                                                                            /*]]>{/literal}*/
+                                        </script>\n
+                                        <script>
+                                        function loadSCode() {
+                                            if (typeof SDM != "undefined") {
+                                                var e = document.getElementsByTagName("body")[0],
+                                                    t = document.createElement("script");
+                                                var prefix = "";
+                                                if (document.location.protocol == "https:") {
+                                                    prefix = "origin-";
+                                                }
+                                                t.src = "//" + prefix + "cdn.els-cdn.com/sd/js/adobe/s_code_131.js";
+                                                e.appendChild(t);
+                                                sendSCStats()
+                                            } else {
+                                                setTimeout(loadSCode, 100)
+                                            }
+                                        }
+
+                                        function sendSCStats() {
+                                            if (typeof s_tc_sciencedirect != "undefined") {
+                                                s.t()
+                                            } else {
+                                                setTimeout(sendSCStats, 100)
+                                            }
+                                        }
+                                        if (window.addEventListener) {
+                                            window.addEventListener("load", loadSCode, false)
+                                        } else if (window.attachEvent) {
+                                            window.attachEvent("onload", loadSCode)
+                                        } else {
+                                            window.onload = loadSCode
+                                        }
+                                        </script>\n
+                                        <div class="clear"></div>\n
+                                        <!-- CSAS will be providing the links-->\n</div>\n
+                                    <div class="padding copyright">\n
+                                        <hr/>\n Copyright \xa9 2015 Elsevier B.V. or its licensors or contributors. ScienceDirect\xae is a registered trademark of Elsevier B.V.\n </div>\n
+                                    <div class="padding" style="padding-bottom:4px;font-size:11px;">\n Cookies are used by this site. To decline or learn more, visit our <a href="http://www.info.sciverse.com/sciencedirect/cookies" target="_blank">Cookies</a> page.\n </div>\n
+                                    <div class="padding links">\n
+                                        <div id="goToggleSite"><a cknm="Site" class="mLink" href="#" lnkorg="article" lnkzn="footer" site="Mobile">Switch to Mobile Site</a></div>\n</div>\n
+                                    <form action="" id="pgReload" method="get"></form>\n</div>\n</div>\n</div>
+                        <!--footer-->\n</div>
+                    <!--sdFooter-->\n</div>
+                <!--footer-area-->\n</div>\n</div>\n
+        <div aria-label="Related content" class="column" id="rightPane" role="complementary">\n
+            <div class="rightOuter" id="rightOuter">\n
+                <div class="rightInner" id="rightInner">\n
+                    <div class="innerPadding">\n
+                        <div class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder" id="SD_BIB"></div>\n
+                        <div class="entry separator related closed" id="recommend_related_articles">\n
+                            <h2><a aria-controls="relArtList" aria-expanded="false" class="toggle" href="#articles"><span class="iconArrow">\xa0</span>Recommended articles</a></h2>\n
+                            <ol id="relArtList">
+                                <li class="note">
+                                    <p>No articles found.</p>
+                                </li>
+                            </ol>\n</div>\n
+                        <div class="entry separator related closed" id="cited_by_articles">\n
+                            <h2><a aria-controls="relArtList" aria-expanded="false" class="toggle" href="#articles"><span class="iconArrow">\xa0</span>Citing articles (<span id="hitcount">0</span>)</a></h2>\n
+                            <ol id="citedByList">
+                                <li class="note">
+                                    <p>This article has not been cited.</p>
+                                </li>
+                            </ol>\n</div>\n
+                        <div class="hidden entry separator appBox sgfNoTitleBar sgfNoGadgetBorder" id="SD_CRA"></div>\n
+                        <div class="entry separator related closed" id="related_book_content">\n
+                            <h2><a aria-controls="relArtList" aria-expanded="false" class="toggle" href="#articles"><span class="iconArrow">\xa0</span>Related book content</a></h2>\n
+                            <ol id="relBkList">
+                                <li class="note" style="margin-left:15px;">
+                                    <p>No articles found.</p>
+                                </li>
+                            </ol>\n</div>\n
+                        <div class="appContainerDummy"></div>\n
+                        <div class="appContainer js_application_content">\n
+                            <ul class="hidden" id="dataRepHolder"></ul>\n
+                            <div class="boxLink sgfNoTitleBar sgfNoGadgetBorder" id="SD_AT1P"></div>\n
+                            <div class="boxLink sgfHorToolbar sgfShowMyApps sgfShowMoreLessApps" id="SD_FTA1"></div>\n</div>\n</div>\n
+                    <div aria-describedby="skuip-3" aria-label="Overlay" aria-live="polite" class="js_workspace_content popup" role="region">\n<a alt="close overlay" aria-label="close overlay" class="closeBt" href="#" id="buttonClose" role="button" title="close overlay">\xa0</a>\n
+                        <div class="scrollArea">
+                            <div id="workSpaceView"></div>
+                        </div>\n</div>\n</div>
+                <!--rightInner-->\n</div>
+            <!--rightOuter-->\n</div>
+        <!--rightPane-->\n</div>
+    <!--page-area-->\n
+    <div style="clear:both;"></div>\n
+    <form action="" id="citationInfo" method="POST" name="citationInfo">\n
+        <input name="art_citation" type="hidden" value="" />\n</form>\n
+    <div class="pdfModalWindow" id="pdfModalWindow" onclick="pdfCite.closePopup();" style="display:none;"></div>\n
+    <!-- PDFKING/PDFCITE -->\n
+    <div id="suggestedPdfList" style="display:none;">\n</div>\n
+    <script src="http://cdn.els-cdn.com/sd/js/sdX_1508R1.js"></script>\n
+    <script src="http://cdn.els-cdn.com/sd/js/sd_1508R1.js"></script>\n
+    <script src="http://cdn.els-cdn.com/sd/js/pa_1508R1.js"></script>\n
+    <script>
+    \
+    nvar sciverse = "empty";\
+    nvar SDM = new Object;\
+    nSDM.tm = new Object;\
+    nSDM.tm.ahm = 'h'\
+    n\ n\ n\ nSDM.ep = new Object;\
+    nSDM.ep.downloadCsvURL = "http://services.elsevier.com/SDWebExport/export/table/csv";\
+    nSDM.ep.downloadActionURL = "http://www.sciencedirect.com/science/downloadActions/keyEvent/S2212671614001024/22126716";\
+    nSDM.ep.gigyaLib = "//cdn.gigya.com/JS/socialize.js?apiKey=3__Bt7bHrGM8mjKPwBuOVjWyMi678aF6-PewcnoHJJ6UR1fS5t9NG9RBbKHjE0oA6J";\
+    nSDM.ep.imgUrlPrefix = "http://ars.els-cdn.com/content/image/";\
+    nSDM.ep.mendeleyJS = "https://www.mendeley.com/minified/bookmarklet.js";\
+    nSDM.ep.prDevice = "http://pa.elsevier.com";\
+    nSDM.ep.pru = "http://pa.elsevier.com";\
+    nSDM.ep.ref2ref2by = "http://www.sciencedirect.com/science/relLink/ajaxReq?_eid=1-s2.0-S2212671614001024";\
+    nSDM.ep.staticImgUrlPrefix = "http://cdn.els-cdn.com/sd";\
+    nSDM.ep.urlPrefix = "http://www.sciencedirect.com/science";\
+    nSDM.ep.urlQualifier = "science";\
+    nSDM.ep.urlScheme = "http://www.sciencedirect.com";\
+    nSDM.ep.userActionURL = "http://www.sciencedirect.com/science/UserActions";\
+    n SDM.helpUrlDomain = "#";\
+    n\ n\ n\ n\ nSDM.pm = new Object;\
+    nSDM.pm.cid = '282179';\
+    nSDM.pm.contentFamily = "serial";\
+    nSDM.pm.contentType = "JL";\
+    nSDM.pm.coverDate = '31-Dec-2014';\
+    n\ nSDM.pm.doi = '10.1016/j.aasri.2014.09.002';\
+    n\ nSDM.doi = '10.1016/j.aasri.2014.09.002';\
+    nSDM.pm.eid = '1-s2.0-S2212671614001024';\
+    nSDM.pm.entitled = true;\
+    n SDM.pm.hubEid = '1-s2.0-S2212671614X00053';\
+    nSDM.pm.indexType = '';\
+    nSDM.pm.issnisbn = "22126716";\
+    n SDM.pm.isSpecialIssue = true;\
+    nSDM.pm.itemWeight = 'HEAD-AND-TAIL';\
+    nSDM.pm.mod_cid = "";\
+    nSDM.pm.mod_srcTitle = "";\
+    nSDM.pm.mod_ISBN = "";\
+    nSDM.pm.pdfEid = '1-s2.0-S2212671614001024-main.pdf';\
+    nSDM.pm.pdfSize = '459105';\
+    nSDM.pm.pii = 'S2212671614001024';\
+    nSDM.pm.prodColor = "sci_dir";
+    if (SDM.pm.prodColor == "sci_dir") SDM.pm.prodColor = "";\
+    n SDM.pm.rev = '20150515T073450698394';\
+    n SDM.pm.hrev = 'vH.9';\
+    n SDM.pm.pptURL = 'http://services.elsevier.com/SDWebExport/export/figure/';\
+    n\ n\ n\ n\ n\ n\ nSDM.pf = new Object;\
+    nSDM.pf.pdfAvail = true;\
+    nSDM.pf.reqAllFrags = true;\
+    n SDM.pf.maxElemsAllFrags = 12000\ nSDM.pf.relatedBkAvail = true;\
+    nSDM.pf.mlktAvail = true;\
+    nSDM.pf.hpccAvail = true;\
+    nSDM.pf.blkSocialLogins = true;\
+    n\ n\ nSDM.browserUserMsg = true;\
+    n\ n\ nSDM.pf.citedByScAvail = true;\
+    nSDM.pf.aetEnabled = false;\
+    n\ n\ n\ nSDM.pf.ads = new Object;\
+    nSDM.pf.ads.leftUrl = "/science/advertisement/left/num/646723/mainCat/general/cat/general/acct/ddd49027ac058c4db14dac8cc0563abc/isn/22126716/doi/10.1016_j.aasri.2014.09.002/page/article/artOAstatus/Y";\
+    n\ n\ n\ n\ nSDM.pf.dc = new Object;\
+    nSDM.pf.dc.retry = 10;\
+    nSDM.pf.dc.retryDelay = 300;\
+    nSDM.pf.dc.retryFactor = 1.0;\
+    nSDM.pf.dc.respObj = '';\
+    n\ n\ nSDM.pf.er = new Object();\
+    n\ n\ n\ n\ n\ n\ nSDM.pf.frag = new Object();\
+    nSDM.pf.frag.fat = 'f95d9bcaea98c7b893492b12cc1a195bbec3701bd2f67341b921b110706d43c1a486a78e86bc941a9eaed206b0c364c156dbcb12d4b19a7a13e10b3aab039b7b9e43212adcd3ea968a8621bfc35aabce26b06183c4b7348626db7a546d0baf70fd5b5a58d1c450b6606ee085638699ea912e647c51aafa280d72a2c6253aa24101a8dfecad34a2d3c78d50c34c02457c6ba56d46cf839a85';\
+    nSDM.pf.frag.mapRetry = 20;\
+    nSDM.pf.frag.mapRetryDelay = 2000;\
+    nSDM.pf.frag.mapRetryFactor = 1.1;\
+    nSDM.pf.frag.retry = 5;\
+    nSDM.pf.frag.retryDelay = 2000;\
+    nSDM.pf.frag.foldFactor = 1.5;\
+    nSDM.pf.frag.hashWait = 5000;\
+    n\ n\ n\ nSDM.pf.crossMark = new Object();\
+    nSDM.pf.crossMark.url = "http://www.sciencedirect.com/science/crossMark";\
+    n\ nSDM.pf.crossMark.lib = "http://cdn.els-cdn.com/sd/js/crossmark_1508R1.js.min";\
+    n\ n\ n\ n\ n\ nSDM.pf.gadget = new Object();\
+    nSDM.pf.gadget.displayGadgets = true;\
+    nSDM.pf.gadget.sciverseUrlPfx = "http://www.sciencedirect.com";\
+    nSDM.pf.gadget.sciverseJsonObject = '';\
+    nSDM.pf.gadget.sciverseGadgetDetailsID = "";\
+    nSDM.pf.gadget.svShindigLib = "http://sciverse-shindig.elsevier.com/gadgets/js/shindig-container:pubsub-2.js?c=1";\
+    nSDM.pf.gadget.svSciverseLib = "http://www.sciencedirect.com/gadgetservices/gadgets/v9/js/SciverseShindigService,GadgetToolBar,jquery-outside,jquery.ba-bbq.min,SciverseShindigContainer,ScienceDirectShindigServices.js";\
+    n\ n\ n\ nSDM.pf.mrwmod = new Object();\
+    nSDM.pf.mrwmod.breadCrumbPathURL = "http://www.sciencedirect.com/science/module/breadCrumbPaths/isbn//pii/S2212671614001024";\
+    n\ nSDM.pf.mrwmod.ldrAvail = true;\
+    n\ n\ n\ n\ n\ nSDM.pf.oa = new Object();\
+    n\ n\ nSDM.pf.oa.source = true;\
+    n\ n\ nSDM.pf.oa.userLicense = 'http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-nc-nd%2F3.0%2F';\
+    n\ n\ nSDM.pf.ref = new Object();\
+    nSDM.pf.ref.bs = 20;\
+    nSDM.pf.ref.citedByURL = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_updateCitedBy=";\
+    nSDM.pf.ref.fd = 300;\
+    n\ nSDM.pf.ref.resolveURL = "http://www.sciencedirect.com/science/referenceResolution/ajaxRefResol?_pii=S2212671614001024&_refCnt=13&_docType=article";\
+    n\ n\ n\ n\ n\ nSDM.pf.toc = new Object;\
+    nSDM.pf.toc.retry = 20;\
+    nSDM.pf.toc.retryDelay = 1000;\
+    nSDM.pf.toc.retryFactor = 1.09;\
+    nSDM.pf.toc.outlineGraphics = false;\
+    nSDM.pf.toc.outlineTab = "";\
+    n\ nSDM.pf.toc.urlTOCLink = "http://www.sciencedirect.com/science/article/pii/S2212671614001024";\
+    nSDM.pf.toc.urlTOCLinkQueryStr = "?_rdoc=1&_fmt=full&_origin=&md5=22543fb95e34d36391c44b9d9cd72533";\
+    n\ nSDM.pf.ddm = new Object();\
+    nSDM.pf.ddm.endpoint = "http://services.elsevier.com/SDWebExport/export/pdfdownload/pdf";\
+    n\ n\ n\ n\ n\ n\ nSDM.si = new Object();\
+    nSDM.si.webUserId = "12975512";\
+    nSDM.si.sds = "3127ee7b1f11111b7624273ce016425263476875fb0e9f4cdf98a7732f75ed620371e16643afa2e4";\
+    nSDM.si.euidCookieObject = 'b3647403c71e5000';\
+    n\ nSDM.pageTransKey = "08/14/2015 11:02:33 EDT#2850_008#57653#216.30.185.217";\
+    nSDM.pageType = "article_full";\
+    nSDM.tid = "7de06da2-4295-11e5-8eef-00000aacb362";\
+    nSDM.ud = "12975512||C000228598|291352|GUEST";\
+    nSDM.ieVersion = "8";\
+    n\ nSDM.dac = new Object;\
+    nSDM.svapi = SVApi;\
+    n\ n
+    </script>\n
+    <script src="http://cdn.els-cdn.com/sd/js/importer-api_1508R1.js.min"></script>\n
+    <script>
+    \
+    n\ ninitializeArticlePage();\
+    n
+    </script>\n
+    <script>
+    var retryCounter = 0;
+    var retryNum = 10;
+    if (typeof SDM != 'undefined' && typeof SDM.pageType != 'undefined' && SDM.pageType == 'article_full') {
+        if (SDM.pf.dc.respObj.DynamicComponentsResp == undefined ||
+            SDM.pf.dc.respObj.DynamicComponentsResp == null) {
+            var linkRender = function() {
+                clearInterval(retryIntrvl);
+                if (DynamicArtContent.dynamicComponents == null || DynamicArtContent.dynamicComponents == undefined || retryCounter < retryNum) {
+                    retryCounter++;
+                    retryIntrvl = setInterval(linkRender, 500);
+                } else {
+                    var outLinkHTML = '';
+                    var oLinks = DynamicArtContent.dynamicComponents.OutwardLinks;
+                    if (oLinks != undefined && oLinks.length > 0) {
+                        for (i = 0; i < oLinks.length; i++) {
+                            if (oLinks[i].LinkCat == 'PermissionAndReprint') {
+                                outLinkHTML = DynamicArtContent.buildOutwardLinks(oLinks[i]);
+                            }
+                        }
+                    }
+                    if (outLinkHTML != '') {
+                        if ($('.rightsLink').length) {
+                            $('.rightsLink').html(outLinkHTML);
+                            $('.extLinks').addClass('nonEmpty');
+                        } else {
+                            SDM.dac.rightsLink = outLinkHTML;
+                        }
+                    } else {
+                        $('.innerPaddingFixedBox .permissions').hide();
+                        $('.moreInformation .permissions').hide();
+                    }
+                }
+            }
+            var retryIntrvl = setInterval(linkRender, 0);
+        } else {
+            var outLinkHTML = '';
+            var oLinks = DynamicArtContent.dynamicComponents.OutwardLinks;
+            if (oLinks != undefined && oLinks.length > 0) {
+                for (i = 0; i < oLinks.length; i++) {
+                    if (oLinks[i].LinkCat == 'PermissionAndReprint') {
+                        outLinkHTML = DynamicArtContent.buildOutwardLinks(oLinks[i]);
+                    }
+                }
+            }
+            if (outLinkHTML != '') {
+                if ($('.rightsLink').length) {
+                    $('.rightsLink').html(outLinkHTML);
+                    $('.extLinks').addClass('nonEmpty');
+                } else {
+                    SDM.dac.rightsLink = outLinkHTML;
+                }
+            } else {
+                $('.innerPaddingFixedBox .permissions').hide();
+                $('.moreInformation .permissions').hide();
+            }
+        }
+    }
+    </script>\n
+    <div id="sdpa"></div>\n
+    <script>
+    SDPA.init();
+    </script>\n
+    <div id="appBackground"></div>\n
+    <div class="files" id="appDialog">\n
+        <div id="header">\n
+            <h1 class="headline">Download PDFs</h1>\n<img class="sd-bubbles" id="logo" onerror="this.src='http://cdn.els-cdn.com/sd/sciencedirect.png'" src="http://cdn.els-cdn.com/sd/sciencedirect.svg" />\n
+            <a class="close" href="#" id="closeWindow"><img src="http://cdn.els-cdn.com/sd/img/sprite_parts/close-icon.png" /></a>\n</div>\n
+        <div class="view" id="contentBlk">\n
+            <div class="help_button" id="ddmMainHelp"><a class="ddmHelp" href="/science?_ob=HelpURL&amp;_file=DM_main.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article" onclick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&amp;_file=DM_main.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" target="sdhelp" title="Help (Opens new window)">Help</a></div>\n
+            <div class="help_button" id="ddmNewformatHelp"><a class="ddmHelp" href="/science?_ob=HelpURL&amp;_file=DM_newformat.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article" onclick="var helpWin; helpWin=window.open('/science?_ob=HelpURL&amp;_file=DM_newformat.htm&amp;_btn=Y&amp;_zone=TopNavBar&amp;_origin=article','sdhelp','scrollbars=yes,resizable=yes,directories=no,toolbar=no,menubar=no,status=no,width=984,height=738'); helpWin.focus(); return false" target="sdhelp" title="Help (Opens new window)">Help</a></div>\n
+            <div id="filesTemplate"></div>\n
+            <div id="namingTemplate"></div>\n</div>\n
+        <div class="footer"></div>\n</div>\n</body>
+
+</html>\n
